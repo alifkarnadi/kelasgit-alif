@@ -55,4 +55,4 @@ INSERT INTO batch_8.karyawan(employee_id,first_name,last_name,email,phone_number
 INSERT INTO batch_8.karyawan(employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,manager_id,department_id) VALUES (205,'Shelley','Higgins','shelley.higgins@sqltutorial.org','515.123.8080','1994-06-07',2,12000.00,101,11);
 INSERT INTO batch_8.karyawan(employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,manager_id,department_id) VALUES (206,'William','Gietz','william.gietz@sqltutorial.org','515.123.8181','1994-06-07',1,8300.00,205,11);
 
-select employee_id,first_name,last_name from batch_8.karyawan;
+select * from batch_8.karyawan;
