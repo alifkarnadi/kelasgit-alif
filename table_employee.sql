@@ -56,3 +56,4 @@ INSERT INTO batch_8.karyawan(employee_id,first_name,last_name,email,phone_number
 INSERT INTO batch_8.karyawan(employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,manager_id,department_id) VALUES (206,'William','Gietz','william.gietz@sqltutorial.org','515.123.8181','1994-06-07',1,8300.00,205,11);
 
 select * from batch_8.karyawan;
+select employee_id from batch_8.karyawam;
